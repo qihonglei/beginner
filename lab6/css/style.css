@@ -1,0 +1,7 @@
+#head{font-size:14px;color:white;font-weight:bolder}
+#head:hover{font-size:14px;color:#b9f605;text-decoration:none;}
+#head1{font-size:14px;color:#fdb306;font-weight:bolder}
+li{color:gray;font-size:12px;font-family:Arial;line-height:2em}
+a{color:#727272;font-size:12px;font-family:Arial;line-height:2em;text-decoration:none;}
+a:hover {text-decoration:underline;}
+p{color:gray;font-size:12px;font-family:Arial;line-height:2em}
