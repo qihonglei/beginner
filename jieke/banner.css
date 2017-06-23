@@ -1,0 +1,72 @@
+*{padding-bottom: 0;margin: 0;}
+body {margin: auto;padding: 0px;/* background: #d5e6e9;*/}/*#b6cad1;}*/
+.logo img{width: 200px;margin:0 200px;}
+.yijian {margin-left: 230px;}
+.menu{width:100%;height: 300px;background:#73c3d1;opacity: 0.8;}
+.menu ul{width: 1000px;margin: 0px auto;list-style-type:none; }
+.menu ul li{float: left;width: 120px;line-height: 40px;}
+.menu a{font-size: 16px;color:#fff;text-decoration: none;}
+.menu ul li a:hover{text-decoration: underline;}
+/*.menu ul a:hover {background-image: url(images/bg1.png);height: 40px; opacity: 0.5;}*/
+.banner img{width: 100%;}
+#crumbs ul li {
+float: left;
+list-style: none;
+}
+#crumbs ul li a {
+display: block;
+float: left;
+height: 34px;
+background:#73c3d1;
+text-align: center;
+padding: 10px 20px 0 45px;
+position: relative;
+margin: 0 10px 0 0;
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+}
+
+#crumbs ul li a:after {
+content: "";
+border-top: 22px solid transparent;
+border-bottom: 22px solid transparent;
+border-left: 22px solid #73c3d1;
+position: absolute; right: -22px; top: 0;
+z-index: 1;
+}
+#crumbs ul li a:before {
+content: "";
+border-top: 22px solid transparent;
+border-bottom: 22px solid transparent;
+border-left: 22px solid #fff;
+position: absolute; left: 0; top: 0;
+}
+#crumbs ul li:first-child a {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+padding-left: 40px;
+}
+#crumbs ul li:first-child a:before {
+display: none;
+}
+#crumbs ul li:last-child a {
+padding-right: 30px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+#crumbs ul li:last-child a:after {
+display: none;
+}
+#crumbs ul li a:hover {
+background: #e56592;
+transition: all 0.2s ease;
+}
+#crumbs ul li a:hover:after {
+border-left-color: #e56592;
+transition: all 0.2s ease;
+}
+
+.fixed {
+clear: both;
+}
